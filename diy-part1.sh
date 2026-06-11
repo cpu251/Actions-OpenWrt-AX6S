@@ -17,5 +17,5 @@ git config --global http.sslverify false
 git config --global https.sslverify false
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;packages' >>feeds.conf.default
-echo 'src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall2.git;luci' >>feeds.conf.default
+echo 'src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main' >>feeds.conf.default
+echo 'src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall2.git;main' >>feeds.conf.default
